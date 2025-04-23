@@ -1,0 +1,112 @@
+.event-card {
+    background-color: #1e1e1e;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 450px;
+    
+    width: 100%;
+    color: #fff;
+  }
+
+  .event-title{
+    text-align: left;
+    width: 70%;
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .event-card-content {
+    padding: 1.5rem;
+  }
+  
+  .event-status {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .status-ongoing {
+    background-color: #dcfce7;
+    color: #166534;
+  }
+
+  .status-completed {
+    background-color: #fee2e2; /* Light Red */
+  color: #b91c1c; 
+  }
+  
+  .status-upcoming {
+    background-color: #dbeafe;
+    color: #1e40af;
+  }
+
+  .card_btn{
+    background-color: #7c4dff;
+  }
+
+
+  @media (max-width: 1280px) {
+    .event-card{
+        max-width: 360px;
+    }
+  }
+
+  @media (max-width: 1265px) {
+    .event-card{
+        max-width: 340px;
+    }
+  }
+
+  @media (max-width: 1205px) {
+    .event-card{
+        max-width: 400px;
+        gap: 60px;
+    }
+  }
+
+  @media (max-width: 925px) {
+    .event-card{
+        max-width: 380px;
+    }
+  }
+
+  @media (max-width: 885px) {
+    .event-card{
+        max-width: 360px;
+    }
+  }
+
+  @media (max-width: 845px) {
+    .event-card{
+        max-width: 350px;
+    }
+  }
+
+  @media (max-width: 540px) {
+
+    .event-status {
+      font-size: 0.6rem;
+    }
+
+    .event-card{
+      width: 87%;
+      font-size: 13px !important;
+    }
+
+    .event-card-content p{
+      font-size: 13px;
+    }
+
+    .card-detail span{
+      margin-top: -7px;
+    }
+  }
