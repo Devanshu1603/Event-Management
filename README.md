@@ -18,19 +18,18 @@
 
 ## 🧰 Tech Stack
 
-### Frontend
-- React.js
-- Bootstrap 5
-- React Router
-- Axios
-- Lucide React Icons
+### Frontend  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563d7c?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge)
+![Lucide](https://img.shields.io/badge/Lucide%20React-000000?style=for-the-badge&logo=lucide&logoColor=white)
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- JSON Web Tokens (JWT)
-- Multer (for file uploads, if needed)
+### Backend  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404d59?style=for-the-badge)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Multer](https://img.shields.io/badge/Multer-ffca28?style=for-the-badge)
 
 ---
 
